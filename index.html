@@ -11,23 +11,33 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Binanry Numbers</title>
   </head>
   <body>
-    <h1>Convert decimal numbers into binary numbers</h1>
-    <h4>Choose any number within range 0-255</h4>
-    <input type="number" name="decNumber" id="inputNum" />
-    <hr />
-    <div>
-      <span id="d7">0</span>
-      <span id="d6">0</span>
-      <span id="d5">0</span>
-      <span id="d4">0</span>
-      <span id="d3">0</span>
-      <span id="d2">0</span>
-      <span id="d1">0</span>
-      <span id="d0">0</span>
-    </div>
+    <section class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col col-8 text-center">
+          <h1>Convert decimal numbers into binary numbers</h1>
+          <h4>Choose any number within range 0-255</h4>
+          <input type="number" name="decNumber" id="inputNum" />
+          <hr />
+          <blockquote class="blockquote">
+            <span id="d7">0</span>
+            <span id="d6">0</span>
+            <span id="d5">0</span>
+            <span id="d4">0</span>
+            <span id="d3">0</span>
+            <span id="d2">0</span>
+            <span id="d1">0</span>
+            <span id="d0">0</span>
+          </blockquote>
+          <hr />
+        </div>
+        <div class="col"></div>
+      </div>
+    </section>
 
     <script src="app.js"></script>
     <!-- JavaScript Bundle with Popper -->
