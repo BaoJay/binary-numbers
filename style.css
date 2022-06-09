@@ -1,5 +1,11 @@
 span {
     font-size: 2rem;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+span:nth-of-type(4n) {
+    margin-right: 0.5em;
 }
 
 body {
@@ -10,4 +16,5 @@ body {
 .row {
     height: 100vh;
 }
+
 
